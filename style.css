@@ -1,0 +1,20 @@
+body{
+    background-image: url(eggman.jfif);
+    background-size: 100%;
+}
+h1{
+    font-family: "Comic Sans MS";
+    margin-top: 25%;
+    text-align: center;
+    font-size: 4em;
+    animation-name: Epic;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes Epic{
+    0%{text-shadow: 7px 7px 5px rgba(0, 21, 255, 1); transform: rotate(0deg);margin-top: 25%;}
+    50%{text-shadow: -7px -7px 5px rgba(0, 255, 21, 1); transform: rotate(180deg); margin-top: 50%;}
+    100%{text-shadow: 7px 7px 5px rgba(0, 21, 255, 1); transform: rotate(359deg);margin-top: 25%;}
+}
